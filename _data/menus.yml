@@ -1,0 +1,32 @@
+main:
+  - name: "Services"
+    url: "/services/"
+    weight: 2
+  - name: "Team"
+    url: "/team/"
+    weight: 3
+  - name: "About"
+    url: "/about/"
+    weight: 4
+  - name: "Contact"
+    url: "/contact/"
+    weight: 5
+  - name: "Introduce"
+    url: "/introduce/"
+    weight: 6
+  - name: "Product"
+    url: "/product/"
+    weight: 7
+  - name: "News"
+    url: "/news/"
+    weight: 8
+  - name: "Recruitment"
+    url: "/recruitment/"
+    weight: 9
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2
