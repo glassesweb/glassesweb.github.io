@@ -1,37 +1,43 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Glasses Web'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
+  desktop: "images/logo/logo.png"
   desktop_height: "32px"
   desktop_width: "120px"
 
 home: 
-  limit_services: 6
+  limit_services: 7
 
 collections:
-  services:
+  products:
     output: true
-    sort_by: weight
-  team:
+  news:
+    output: true
+  jobs:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "services"
+      type: "products"
     values:
-      layout: "service"
+      layout: "product"
   - scope:
       path: ""
-      type: "team"
+      type: "news"
     values:
-      layout: "team"
-
+      layout: "news"
+  - scope:
+      path: ""
+      type: "jobs"
+    values:
+      layout: "jobs"
+            
 sass:
   style: compressed # possible values: nested expanded compact compressed
 

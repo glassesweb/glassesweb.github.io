@@ -25,21 +25,21 @@ window.onload = function() {
 											// 使用 setTimeout 是为了允许浏览器先渲染无过渡的状态变化，然后再添加过渡效果
 											setTimeout(() => {
 													list.style.transition = 'left 1s';
-													list.style.left = '-800px'; // 移动到第二张图片的位置（正是第一张图片，因为第一张图片有副本在最后）
+													list.style.left = '-1280px'; // 移动到第二张图片的位置（正是第一张图片，因为第一张图片有副本在最后）
 											}, 0);
 									}
 									// 当要跳转到的索引小于实际图片数量时
 									// index = 0 是开始的最后一个图片副本，需要无缝跳转到真正的最后一张（index = spans.length）
 									else if (index < 1) {
 											list.style.transition = ''; // 去除过渡效果以实现无缝跳转
-											list.style.left = `-${800 * spans.length}px`; // 重置到最后一张图片的位置
+											list.style.left = `-${1280 * spans.length}px`; // 重置到最后一张图片的位置
 											index = spans.length; // 重置索引
 											setTimeout(() => {
 													list.style.transition = 'left 1s';
-													list.style.left = `-${800 * (spans.length - 1)}px`; // 移动到倒数第二张图片的位置（正是最后一张图片，因为最后一张图片有副本在开始）
+													list.style.left = `-${1280 * (spans.length - 1)}px`; // 移动到倒数第二张图片的位置（正是最后一张图片，因为最后一张图片有副本在开始）
 											}, 0);
 									} else {
-											list.style.left = -800 * index + 'px'; // 正常情况下的过渡
+											list.style.left = -1280 * index + 'px'; // 正常情况下的过渡
 									}
 									spanIndex = index; // 更新导航索引
 									updateNav();
@@ -51,7 +51,7 @@ window.onload = function() {
     next.onpointerdown = function() {
         if (parseInt(list.style.left) < -4800) {
             list.style.transition = '';
-            list.style.left = '-800px';
+            list.style.left = '-1280px';
         }
         setTimeout(function() {
             moveToIndex(spanIndex + 1);
@@ -59,9 +59,9 @@ window.onload = function() {
     };
 
     prev.onpointerdown = function() {
-        if (parseInt(list.style.left) > -800) {
+        if (parseInt(list.style.left) > -1280) {
             list.style.transition = '';
-            list.style.left = '-4800px';
+            list.style.left = '-1280px';
         }
         setTimeout(function() {
             moveToIndex(spanIndex - 1);

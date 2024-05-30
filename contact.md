@@ -1,16 +1,17 @@
 ---
-title: Contact
+title: 联系方式
 layout: contact
 description: Contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+## **运营时间**
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+| 日期      | 			时间       |
+| --------- | ---------------  |
+| 星期一    | 8:30am - 5:00pm  |
+| 星期二 		| 8:30am - 5:00pm  |
+| 星期三  	| 8:30am - 5:00pm  |
+| 星期四    | 8:30am - 5:00pm  |
+| 星期五  	| 8:30am - 5:00pm  |
+| 星期六  	| 10:00am - 4:00pm | 
+| 星期日  	| 		不运营       |
