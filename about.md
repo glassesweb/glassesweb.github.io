@@ -16,7 +16,7 @@ bodyClass: page-about
         <p>我们的愿景是成为行业领先的玻璃制品供应商，为客户提供全方位的满意度和体验。</p>
       </div>
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="关于我们" class="intro-image" src="/images/about.jpg" />
+        <img alt="关于我们" class="intro-image" src="/assets/images/team.jpg" />
       </div>
     </div>
   </div>

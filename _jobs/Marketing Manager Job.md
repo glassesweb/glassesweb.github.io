@@ -26,7 +26,7 @@ weight: 3
         <p>如果您对此岗位感兴趣，请发送您的简历至 careers@example.com。</p>
       </div>
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="市场营销经理" class="intro-image" src="/images/job_marketing.jpg" />
+        <img alt="市场营销经理" class="intro-image" src="/assets/images/markerting_manager.webp" />
       </div>
     </div>
   </div>

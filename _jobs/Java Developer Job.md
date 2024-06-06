@@ -26,7 +26,7 @@ weight: 4
         <p>如果您对此岗位感兴趣，请发送您的简历至 careers@example.com。</p>
       </div>
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="Java 开发工程师" class="intro-image" src="/images/job_java.jpg" />
+        <img alt="Java 开发工程师" class="intro-image" src="/assets/images/java_engineer.webp" />
       </div>
     </div>
   </div>
