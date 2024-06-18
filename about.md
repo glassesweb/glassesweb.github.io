@@ -24,7 +24,7 @@ bodyClass: page-about
 <div class="container pt-6 pb-6">
   <div class="row">
     <div class="col-12">
-      <h2>我们的价值观</h2>
+      <h1>我们的价值观</h1>
       <ul>
         <li>品质第一</li>
         <li>客户至上</li>
