@@ -1,5 +1,4 @@
 ---
-title: 关于我们
 layout: page
 description: 我们是一家专注于玻璃制品设计与生产的公司，致力于为客户提供高品质的产品和优质的服务。
 bodyClass: page-about
@@ -9,7 +8,7 @@ bodyClass: page-about
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        <h2>团队介绍</h2>
+        <h1>团队介绍</h1>
         <li>我们是一家专注于玻璃制品设计与生产的公司，致力于为客户提供高品质的产品和优质的服务。</li>
         <li>我们的使命是创造优雅、实用的玻璃产品，为人们的日常生活增添美感和便利。</li>
         <li>我们的愿景是成为行业领先的玻璃制品供应商，为客户提供全方位的满意度和体验。</li>
