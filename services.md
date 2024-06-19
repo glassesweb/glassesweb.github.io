@@ -1,18 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-  <title>我们的服务</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
-  <script type="text/javascript" src="js/menu.js"></script> 
- </head>
-<body>
-    <!----start-header----->
-     <div class="header_img">
-       <img src="images/slider-1.jpg" alt="玻璃杯商店" />
+
          <div class="wrap">
             <div class="header">	        	
             		<div class="logo">
