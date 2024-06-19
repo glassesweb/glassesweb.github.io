@@ -7,7 +7,6 @@ description: Jobs
 <div class="container pt-5 pb-5">
   <div class="row">
     <div class="col-12">
-      <h1 class="text-center mb-4">招聘信息</h1>
       {% for jobs in site.jobs %}
       <div class="job-listing mb-4 p-3 border rounded shadow-sm">
         <h2 class="job-title">
