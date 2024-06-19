@@ -6,7 +6,7 @@ bodyClass: "page-home"
     /* 轮播图容器 */
     #carousel {
         width: 1280px;
-        height: 1280px;
+        height: 600px;
         border: 2px solid brown;
         position: relative;
         margin: 0 auto; /* 上下间距为0，左右自动调整 */
@@ -14,8 +14,8 @@ bodyClass: "page-home"
     }
     /* 轮播图图片内容 */
     #list {
-        height: 1280px;
-        width: 8960px; /* 7 images x 800px each */
+        height: 600px;
+        width: 8960px; /* 7 images x 1280x each */
         display: flex;
         transition: left 1s;
         position: relative;
@@ -62,6 +62,32 @@ bodyClass: "page-home"
         right: 20px;
         background-image: url('assets/images/nexImg.png');
     }
+
+    .section {
+        padding: 60px 0;
+        text-align: center;
+    }
+    .section .content {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        padding: 0 20px; /* 给每一段内容添加左右间距 */
+    }
+    .section .content:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .section img {
+        width: 50%;
+        max-width: 600px;
+        margin: 0 20px; /* 图片与文本间的间距 */
+        border: 2px solid #ddd; /* 添加图片边框 */
+        border-radius: 8px; /* 圆角边框 */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    }
+    .section .text {
+        width: 50%;
+        padding: 0 20px;
+    }
 </style>
 
 <div id="carousel">
@@ -87,6 +113,33 @@ bodyClass: "page-home"
         <span id="prev"></span>
         <span id="next"></span>
  </div>
- 
+ <div class="section">
+    <div class="content">
+        <img src="assets/images/left.jpg" alt="Image 1">
+        <div class="text">
+            <h2>关于我们</h2>
+            <p>我们是一家专注于玻璃制品设计与生产的公司，致力于为客户提供高品质的产品和优质的服务。</p>
 
+            <p>我们的使命是创造优雅、实用的玻璃产品，为人们的日常生活增添美感和便利。</p>
+                
+            <p>我们的愿景是成为行业领先的玻璃制品供应商，为客户提供全方位的满意度和体验</p>
+        </div>
+    </div>
+    <div class="content">
+        <img src="assets/images/right.jpeg" alt="Image 2">
+        <div class="text">
+            <h2>发展历史</h2>
+            <p>晶莹玻璃 始于20XX年，由一群对玻璃工艺充满热情的工匠和设计师创立。我们的创始人，XXX，从年轻时就对玻璃艺术深感兴趣，并立志将传统手工艺与现代设计相结合，创办了这家公司。</p>
 
+            <p>在公司的初期，我们主要生产家用玻璃杯，并以其高品质和精美设计迅速赢得了本地市场的认可。随着时间的推移，我们不断扩大产品线，推出了适用于红酒、白酒、啤酒及其他饮品的多种玻璃杯。我们的产品不仅在国内市场畅销，还逐步进入了国际市场。</p>
+        </div>
+    </div>
+    <div class="content">
+        <img src="assets/images/final.jpg" alt="Image 3">
+        <div class="text">
+            <h2>产品服务</h2>
+            <p>晶莹玻璃公司致力于为客户提供高质量的玻璃制品及个性化定制服务。我们深知每位客户的需求独一无二，因此，我们的服务覆盖从标准产品供应到个性化设计定制，旨在满足多样化的市场需求。</p>
+            <p>我们提供一系列高品质的标准玻璃制品，包括但不限于艺术玻璃杯、优雅系列玻璃杯和多功能保温玻璃杯。这些产品采用优质材料制成，设计精美，适合日常使用和礼品赠送。</p>
+        </div>
+    </div>
+</div>
