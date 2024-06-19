@@ -22,13 +22,13 @@ bodyClass: page-about
   </div>
 </section>
 
-<section class="values py-5">
+<section class="values py-5 text-center">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-8">
-        <h2 class="text-center">我们的价值观</h2>
-        <p class="text-center">我们坚持以下核心价值观，以确保我们的产品和服务始终保持最高标准：</p>
-        <ul class="list-unstyled pl-3">
+    <div class="row">
+      <div class="col-12">
+        <h2>我们的价值观</h2>
+        <p>我们坚持以下核心价值观，以确保我们的产品和服务始终保持最高标准：</p>
+        <ul class="list-unstyled">
           <li><strong>品质第一：</strong>我们追求卓越，不断提高产品质量。</li>
           <li><strong>客户至上：</strong>我们倾听客户需求，提供个性化服务。</li>
           <li><strong>创新驱动：</strong>我们鼓励创新思维，推动行业发展。</li>
