@@ -12,11 +12,11 @@
 <body>
     <!----start-header----->
      <div class="header_img">
-       <img src="images/glass-header.jpg" alt="玻璃杯商店" />
+       <img src="images/solder-1.jpg" alt="玻璃杯商店" />
          <div class="wrap">
             <div class="header">	        	
             		<div class="logo">
-                        <a href="index.html"><img src="images/glass-logo.jpg" alt="玻璃杯商店Logo" style="margin-top: 20px;"></a>
+                        <a href="index.html"><img src="images/solder-2.jpg" alt="玻璃杯商店Logo" style="margin-top: 20px;"></a>
                   </div>
           	       <div class="menu">
 				      <nav class="clearfix">
