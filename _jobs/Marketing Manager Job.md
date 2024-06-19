@@ -6,8 +6,13 @@ weight: 3
 
 <div class="intro">
   <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8 text-center">
+        <img alt="市场营销经理" class="intro-image mb-4" src="/assets/images/markerting_manager.webp" />
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
         <h1>市场营销经理</h1>
         <p>我们正在寻找一位资深的市场营销经理，负责公司的市场推广和品牌建设。</p>
         <h2>职责：</h2>
@@ -23,10 +28,7 @@ weight: 3
           <li>具有良好的领导和团队管理能力</li>
           <li>优秀的沟通和谈判技巧</li>
         </ul>
-        <p>如果您对此岗位感兴趣，请发送您的简历至 careers@example.com。</p>
-      </div>
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="市场营销经理" class="intro-image" src="/assets/images/markerting_manager.webp" />
+        <p>如果您对此岗位感兴趣，请发送您的简历至 <a href="mailto:careers@example.com">careers@example.com</a>。</p>
       </div>
     </div>
   </div>
