@@ -20,6 +20,8 @@ collections:
     output: true
   jobs:
     output: true
+  reviews:
+    output: true
 
 defaults:
   - scope:
@@ -37,6 +39,11 @@ defaults:
       type: "jobs"
     values:
       layout: "jobs"
+  - scope:
+      path: ""
+      type: "reviews"
+    values:
+      layout: "review"
             
 sass:
   style: compressed # possible values: nested expanded compact compressed
