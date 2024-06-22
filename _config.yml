@@ -43,7 +43,7 @@ defaults:
       path: ""
       type: "reviews"
     values:
-      layout: "review"
+      layout: "reviews"
             
 sass:
   style: compressed # possible values: nested expanded compact compressed
